@@ -17,9 +17,6 @@ sizes:
   - Large
   - XL
 styles:
-  - name: Black
-    color: '#000000'
-    image: /images/products/deer/black.jpg
   - name: Blue
     color: '#39589e'
     image: /images/products/deer/blue.jpg
