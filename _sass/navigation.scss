@@ -23,7 +23,7 @@ header {
 	}
 	@media #{$mid-point} {
 		&:before, &:after {
-			content: "";
+			content: none;
 			width: 25%;
 			display: block;
 			position: absolute;
