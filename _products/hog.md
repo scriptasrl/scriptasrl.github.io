@@ -18,9 +18,6 @@ sizes:
   - Large
   - XL
 styles:
-  - name: Clay
-    color: '#9c5145'
-    image: /images/products/hog/clay.jpg
   - name: Cream
     color: '#dfd3c2'
     image: /images/products/hog/cream.jpg
