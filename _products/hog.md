@@ -24,4 +24,7 @@ styles:
   - name: Blue
     color: '#39589e'
     image: /images/products/hog/blue.jpg
+  - name: Clay
+    color: '#9c5145'
+    image: /images/products/hog/clay.jpg
 ---
