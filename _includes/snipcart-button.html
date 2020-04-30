@@ -7,6 +7,7 @@
 	data-item-name="{{ include.product.name }}"
 	data-item-id="{{ include.product.sku }}"
 	data-item-description="{{ include.product.description }}"
+	data-item-image="{{ include.product.styles.first.image }}"
 	data-item-custom1-name="Size"
 	data-item-custom1-options="{{ include.product.sizes | join: '|' }}"
 	data-item-custom1-value="Medium"
