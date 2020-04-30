@@ -19,14 +19,14 @@ sizes:
 styles:
   - name: Black
     color: "#000000"
-    image: limitededition/images/products/deer/black.jpg
+    image: /images/products/deer/black.jpg
   - name: Blue
     color: '#39589e'
-    image: limitededition/images/products/deer/blue.jpg
+    image: /images/products/deer/blue.jpg
   - name: Clay
     color: '#9c5145'
-    image: limitededition/images/products/deer/clay.jpg
+    image: /images/products/deer/clay.jpg
   - name: Cream
     color: '#dfd3c2'
-    image: limitededition/images/products/deer/cream.jpg
+    image: /images/products/deer/cream.jpg
 ---
