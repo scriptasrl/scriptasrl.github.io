@@ -6,3 +6,4 @@ $('li p a').css({"color":colors[rand]});
 $('button').css({"background":colors[rand]});
 $('.product-container .product-details h4').css({"color":colors[rand]});			
 $('footer path').css({"fill":colors[rand]});
+$('p.copyright a').css({"color":colors[rand]});
