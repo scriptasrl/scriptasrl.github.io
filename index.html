@@ -17,7 +17,7 @@ subtitle: powered by gadgetmania.it
 							<div class="product-description">
 								{{ product.description_markdown | truncate: 45 | markdownify }}
 							</div>
-							<p>${{ product.price }}</p>
+							<p>{{ product.price }}€</p>
 						</div>
 					</li>
 				{% endfor %}
