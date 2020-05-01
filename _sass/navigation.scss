@@ -14,8 +14,8 @@
 
 header {
 	color: #fff;
-	padding: 20px 0 59px 0;
-	background: linear-gradient(135deg, $brand-color 0%, $brand-color-2 100%);
+	padding: 20px 0 0px 0;
+	background: #3498db;
 	position: relative;
 
 	p {
@@ -63,7 +63,7 @@ header {
 
 nav {
 	width: 100%;
-	padding: 20px 0 0 0;
+	padding: 0px 0 0 0;
 
 	@media #{$mid-point} {
 		display: inline-block;

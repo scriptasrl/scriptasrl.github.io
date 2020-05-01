@@ -10,3 +10,4 @@
 		$parent.children(".style[data-item-id=" + id + "]").show();
 	});
 })();
+

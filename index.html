@@ -17,7 +17,7 @@ subtitle: powered by gadgetmania.it
 							<div class="product-description">
 								{{ product.description_markdown | truncate: 45 | markdownify }}
 							</div>
-							<p>${{ product.price }}</p>
+							<p>€{{ product.price }}</p>
 						</div>
 					</li>
 				{% endfor %}
@@ -25,6 +25,9 @@ subtitle: powered by gadgetmania.it
 				<li></li>
 				<li></li>
 			</ul>
+
+			<p class="copyright" style="text-align: center;font-size:0.8rem">Per prodotti personalizzati con il tuo design scrivi a<a href="mailto:clienti@gadgetmania.it">
+						clienti@gadgetmania.it</a> oppure tramite il form di contatto</p>
 		</div>
 	</section>
 </div>
