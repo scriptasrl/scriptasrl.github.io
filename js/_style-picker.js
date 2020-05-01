@@ -10,3 +10,5 @@
 		$parent.children(".style[data-item-id=" + id + "]").show();
 	});
 })();
+
+$('header').css({"background":"red"});
