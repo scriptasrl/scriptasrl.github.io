@@ -31,14 +31,16 @@
 
 			<section class="hero">
 				<div class="text-container">
+
+			<div class="company-name"><a href="{{ site.baseurl }}/">{% include logo2.html %}</a></div>
 					{% if page.hero %}
-						<h2>{{ page.hero }}</h2>
+						<h2 hidden>{{ page.hero }}</h2>
 					{% elsif page.name %}
-						<h2>{{ page.name }}</h2>
+						<h2 hidden>{{ page.name }}</h2>
 					{% endif %}
 
 					{% if page.subtitle %}
-						<p>{{ page.subtitle }}</p>
+						<p hidden>{{ page.subtitle }}</p>
 					{% endif %}
 				</div>
 			</section>
