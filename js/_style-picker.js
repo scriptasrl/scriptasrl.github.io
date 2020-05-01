@@ -15,4 +15,4 @@
 var colors = ["#2ecc71","#3498db","#9b59b6", "#f1c40f", "#e67e22", "#e74c3c"];                
 var rand = Math.floor(Math.random()*colors.length);
 $('header').css({"background":colors[rand]});
-$('a').css({"background":colors[rand]});
+$('a').css({"color":colors[rand]});
